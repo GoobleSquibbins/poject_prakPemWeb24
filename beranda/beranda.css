@@ -1,0 +1,629 @@
+:root{
+    --blue: #0C0233;
+    --yellow: #F2C502;
+    --gray: #5D5D5D;
+    --dark-gray: #11101B;
+
+    --alatsi:"Alatsi", sans-serif;;
+    --inter:"Inter", sans-serif;
+    --alexandria: "Alexandria", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* =============================NAVVVV============================== */
+
+
+.nav{
+    width: 1440px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.links{
+    width: 562px;
+    height: 50px;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.list_of_links{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_item{
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--inter);
+    font-weight: 600;
+    display: inline;
+    font-size: 14px;
+}
+
+.logo{
+    margin-left: 175px;
+}
+
+.search_icon{
+    width: 43px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ============================NAAAAAAAVVVVVVVV=================================== */
+
+
+.hero{
+    width: 1440px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroText_small{
+    position: absolute;
+    top: 356px;
+    left: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 3;
+}
+
+.left{
+    width: 6px;
+    height: 37px;
+    background: var(--yellow);
+}
+
+.right{
+    width: 483px;
+    height: 37px;
+    background: var(--blue);
+    text-align: center;
+    font-family: var(--inter);
+    font-weight: 300;
+    font-size: 27px;
+    color: white;
+}
+
+.heroText_big{
+    width: 860px;
+    margin: 0;
+    font-family: var(--inter);
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 411px;
+    left: 81px;
+    z-index: 3;
+}
+
+.heroText_big h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.gradient{
+    width: 1440px;
+    height: 232px;
+    background: linear-gradient(to top, var(--dark-gray), transparent);
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.rect1{
+    width: 557px;
+    height: 327px;
+    background: var(--blue);
+    position: absolute;
+    top: -30px;
+    left: -400px;
+    z-index: 3;
+    rotate: -55deg;
+}
+
+.rect{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.quickOpt{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 996px;
+    height: 100px;
+}
+
+.quickOptItem{
+    width: 230px;
+    height: 95px;
+    background: var(--blue);
+    color: var(--yellow);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.quickOptTxt{
+    font-family: var(--inter);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.quickOptImg{
+    margin-left: 15px;
+}
+
+.ikuti_kami{
+    margin-top: 70px;
+    text-align: center
+}
+
+.ikutiTxt{
+    font-size: 37px;
+    font-family: var(--alexandria);
+    color: #0C0233;
+    font-weight: 400;
+}
+
+.ikutiMedsos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+    font-family: var(--alatsi);
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sosmedIkuti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.sosmedIcon{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.post{
+    width: 997px;
+    height: 1840px;
+    position: relative;
+    margin-top: 50px;
+    font-family: var(--inter);
+}
+
+.postHeader{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 7px;
+}
+
+.headerIcon{
+    margin-left: 20px;
+}
+
+.postHeader p{
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+p.time{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.postMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.postTxt{
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 7px;
+    line-height: 15px;
+    width: 300px;
+}
+
+.postFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.postFooter p{
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.postFooterIcon{
+    width: 15px;
+    margin-left: 12px;
+}
+
+.postFooterIconRight{
+    margin-left: auto;
+    margin-right: 12px;
+    width: 15px;
+}
+
+.post1{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post2{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 337px;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post3{
+    box-sizing: border-box;
+    position: absolute;
+    top: 527px;
+    left: 0;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post4{
+    box-sizing: border-box;
+    position: absolute;
+    top: 798px;
+    left: 337px;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post5{
+    box-sizing: border-box;
+    position: absolute;
+    top: 435px;
+    right: 0;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post6{
+    box-sizing: border-box;
+    position: absolute;
+    top: 1229px;
+    right: 0;
+    text-align: left;
+    width: 323px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post7{
+    box-sizing: border-box;
+    position: absolute;
+    top: 1323px;
+    left: 0;
+    text-align: left;
+    width: 660px;
+    border: 3px solid #878787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post7 .postTxt{
+    width: 615px;
+}
+
+.post7 .postMain img{
+    width: 100%;
+}
+
+.menuKilasRingkas{
+    width: 323px;
+    height: 419px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    box-sizing: border-box;
+    border: 3px solid #878787;
+    transition: all .2s;
+}
+
+.menuKilasRingkas:hover{
+    cursor: pointer;
+    transform: scale(.97);
+}
+
+.kilasImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Or 'contain' depending on how you want it scaled */
+}
+
+.lang{
+    margin: 0;
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-family: var(--inter);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.kilasTxt{
+    background: var(--blue);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.kilasTxt h1{
+    padding: 10px;
+    color: var(--yellow);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* =============================FOOOTER================================== */
+
+footer{
+    width: 1440px;
+    height: 759px;
+    background: var(--dark-gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-top: 70px;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconContainer p{
+    margin: 0;
+    padding: 0;
+    font-family: var(--inter);
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footerIcon{
+    width: 95;
+}
+
+.footerLeft{
+    padding: 0;
+    margin-top: 77px;
+    padding-right: 34px;
+    border-right:1px solid white ;
+}
+
+.footerLTxt{
+    margin-top: 290px;
+    padding-bottom: 15px;
+    text-align: right;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerRight{
+    margin-left: 130px;
+    font-family: var(--inter);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.footerRight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerRight li{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footerRight h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.layananKami{
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 121px;
+}
+
+.footerCol1{
+    margin-top: 124px;
+    margin-left: 137px;
+    margin-right: 115px;
+}
+
+.footerCol2{
+    margin-top: 124px;
+}
+
+.hubungiPolri, .hotlineDarurat{
+    margin-top: 82px;
+}
+
+.footerDown{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.contact ul{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: var(--inter);
+}
+
+.contact li{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footerSosmed{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rockBottom{
+    margin-top: 17px;   
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.rockBottom a{
+    color: white;
+    font-family: var(--inter);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.lastUpdate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+
+.lastUpdate p{
+    margin-right: 19px;
+}

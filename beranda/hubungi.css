@@ -1,0 +1,422 @@
+:root{
+    --blue: #0C0233;
+    --yellow: #F2C502;
+    --gray: #5D5D5D;
+    --dark-gray: #11101B;
+
+    --alatsi:"Alatsi", sans-serif;;
+    --inter:"Inter", sans-serif;
+    --alexandria: "Alexandria", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* =============================NAVVVV============================== */
+
+
+.nav{
+    width: 1440px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.links{
+    width: 562px;
+    height: 50px;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.list_of_links{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_item{
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--inter);
+    font-weight: 600;
+    display: inline;
+    font-size: 14px;
+}
+
+.logo{
+    margin-left: 175px;
+}
+
+.search_icon{
+    width: 43px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ============================NAAAAAAAVVVVVVVV=================================== */
+
+
+
+.hero{
+    position: relative;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.heroTxtSmall{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 397px;
+    position: absolute;
+    top: 313px;
+    left: 34px;
+    background: var(--dark-gray);
+    height: 45px;
+}
+
+.heroSmallTxt{
+    color: white;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+
+.heroSmallYellow{
+    background: var(--yellow);
+    width: 25px;
+    height: 45px;
+}
+
+.heroTxtBig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1416px;
+    height: 163px;
+    position: absolute;
+    top: 370px;
+    left: 34px;
+    background: var(--blue);
+    
+}
+
+.txtBigYellow{
+    width: 25px;
+    background: var(--yellow);
+    height: 100%;
+    margin-right: 10px;
+}
+
+.txtHotline{
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: var(--inter);
+}
+
+.n110{
+    color: white;
+    font-size: 300px;
+    font-weight: 400;
+    font-family: var(--alatsi);
+    position: absolute;
+    top: 5px;
+    right: 67px;
+    z-index: 3;
+}
+
+.content{
+    width: 1068px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentTxt{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contentTxt p{
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 830px;
+}
+
+.yellowContent{
+    background: var(--yellow);
+    height: 350px;
+    width: 14px;
+    margin-right: 17px;
+}
+
+.title{
+    margin-top: 75px;
+    margin-right: auto;
+    background: var(--blue);
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h2{
+    color: white;
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.yellowKontak{
+    background: var(--yellow);
+    height: 100%;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.alamat{
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.alamatTxt{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--inter);
+    line-height: 25px;
+}
+
+.alamat img{
+    width: 257px;
+    height: 119px;
+}
+
+.map{
+    margin-top: 35px;
+    border: 3px solid var(--blue);
+    width: 982px;
+}
+
+
+
+
+
+
+
+
+/* =============================FOOOTER================================== */
+
+footer{
+    width: 1440px;
+    height: 759px;
+    background: var(--dark-gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-top: 70px;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconContainer p{
+    margin: 0;
+    padding: 0;
+    font-family: var(--inter);
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footerIcon{
+    width: 95;
+}
+
+.footerLeft{
+    padding: 0;
+    margin-top: 77px;
+    padding-right: 34px;
+    border-right:1px solid white ;
+}
+
+.footerLTxt{
+    margin-top: 290px;
+    padding-bottom: 15px;
+    text-align: right;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerRight{
+    margin-left: 130px;
+    font-family: var(--inter);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.footerRight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerRight li{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footerRight h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.layananKami{
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 121px;
+}
+
+.footerCol1{
+    margin-top: 124px;
+    margin-left: 137px;
+    margin-right: 115px;
+}
+
+.footerCol2{
+    margin-top: 124px;
+}
+
+.hubungiPolri, .hotlineDarurat{
+    margin-top: 82px;
+}
+
+.footerDown{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.contact ul{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: var(--inter);
+}
+
+.contact li{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footerSosmed{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rockBottom{
+    margin-top: 17px;   
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.rockBottom a{
+    color: white;
+    font-family: var(--inter);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.lastUpdate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+
+.lastUpdate p{
+    margin-right: 19px;
+}

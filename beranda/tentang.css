@@ -1,0 +1,500 @@
+:root{
+    --blue: #0C0233;
+    --yellow: #F2C502;
+    --gray: #5D5D5D;
+    --dark-gray: #11101B;
+
+    --alatsi:"Alatsi", sans-serif;;
+    --inter:"Inter", sans-serif;
+    --alexandria: "Alexandria", serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 1340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.thatsalotofwords{
+    margin: 0;
+    margin-left: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--inter);
+    width: 646px;
+}
+
+.mainTxt{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.txtImg{
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+}
+
+
+
+
+
+
+
+/* =============================NAVVVV============================== */
+
+
+.nav{
+    width: 1440px;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.links{
+    width: 562px;
+    height: 50px;
+    margin-right: 80px;
+    margin-left: auto;
+}
+
+.list_of_links{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link_item{
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--inter);
+    font-weight: 600;
+    display: inline;
+    font-size: 14px;
+}
+
+.logo{
+    margin-left: 175px;
+}
+
+.search_icon{
+    width: 43px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ============================NAAAAAAAVVVVVVVV=================================== */
+
+.hero{
+    width: 1440px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroTxtSmall{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 397px;
+    position: absolute;
+    top: 366px;
+    left: 34px;
+    background: var(--dark-gray);
+    height: 45px;
+}
+
+.heroSmallTxt{
+    color: white;
+    font-family: var(--inter);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+
+.heroSmallYellow{
+    background: var(--yellow);
+    width: 25px;
+    height: 45px;
+}
+
+.left{
+    width: 6px;
+    height: 37px;
+    background: var(--yellow);
+}
+
+.right{
+    width: 483px;
+    height: 37px;
+    background: var(--blue);
+    text-align: center;
+    font-family: var(--inter);
+    font-weight: 300;
+    font-size: 27px;
+    color: white;
+}
+
+.gradient{
+    width: 1440px;
+    height: 232px;
+    background: linear-gradient(to top, var(--dark-gray), transparent);
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.heroText_big{
+    width: 860px;
+    margin: 0;
+    font-family: var(--inter);
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 411px;
+    left: 34px;
+    z-index: 3;
+}
+
+.heroText_big h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    width: 1340px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--blue);
+    padding-bottom: 40px;
+    margin-top: 37px;
+}
+
+.secTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1340px;
+    margin-left: 355px;
+}
+
+.mark{
+    background: var(--blue);
+    width: 14px;
+    height: 45px;
+    position: relative;
+}
+
+.markYellow{
+    background: var(--yellow);
+    width: 14px;
+    height: 9px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.secTitleTxt{
+    font-family: var(--alexandria);
+    font-size: 37px;
+    font-weight: 400;
+    color: var(--blue);
+    margin-left: 8px;
+}
+
+.secContent{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.yellowBar{
+    background: var(--yellow);
+    height: 367px;
+    width: 14px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.secTxt{
+    width: 590px;
+    font-family: var(--inter);
+    font-size: 14px;
+    border-left: 14px solid var(--yellow);
+    padding-left: 28px;;
+    margin-left: 28px;
+}
+
+.secTxt p{
+    margin: 0;
+}
+
+.secContent img{
+    width: 275px;
+    object-fit: contain;
+}
+
+.secTxt ul{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.secTxt ul li{
+    margin: 10px;
+}
+
+#end{
+    border-bottom: none;
+}
+
+.visi{
+    width: 940px;
+    font-family: var(--inter);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.boldTxt{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.visi ol{
+margin: 0;
+padding: 0;
+margin-left: 10px;
+}
+
+.visi li{
+    margin: 7px;
+}
+
+.sejarah{
+    width: 549px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-left: auto;
+    margin-top: 70px;
+}
+
+.sejarah button{
+    font-family: var(--inter);
+    color: white;
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    background: var(--blue);
+    border-left: 14px solid var(--yellow);
+    transition: all .2s;
+}
+
+.sejarah p{
+    font-size: 30px;
+    font-family: var(--inter);
+    margin-left: 11px;
+}
+
+.sejarah button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+/* =============================FOOOTER================================== */
+
+footer{
+    width: 1440px;
+    height: 759px;
+    background: var(--dark-gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconContainer p{
+    margin: 0;
+    padding: 0;
+    font-family: var(--inter);
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footerIcon{
+    width: 95;
+}
+
+.footerLeft{
+    padding: 0;
+    margin-top: 77px;
+    padding-right: 34px;
+    border-right:1px solid white ;
+}
+
+.footerLTxt{
+    margin-top: 290px;
+    padding-bottom: 15px;
+    text-align: right;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footerTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerRight{
+    margin-left: 130px;
+    font-family: var(--inter);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.footerRight ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerRight li{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footerRight h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.layananKami{
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 121px;
+}
+
+.footerCol1{
+    margin-top: 124px;
+    margin-left: 137px;
+    margin-right: 115px;
+}
+
+.footerCol2{
+    margin-top: 124px;
+}
+
+.hubungiPolri, .hotlineDarurat{
+    margin-top: 82px;
+}
+
+.footerDown{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.contact ul{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: var(--inter);
+}
+
+.contact li{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footerSosmed{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rockBottom{
+    margin-top: 17px;   
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.rockBottom a{
+    color: white;
+    font-family: var(--inter);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.lastUpdate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+
+.lastUpdate p{
+    margin-right: 19px;
+}
