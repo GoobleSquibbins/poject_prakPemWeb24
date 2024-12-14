@@ -106,7 +106,7 @@ body{
 .right{
     width: 483px;
     height: 37px;
-    background: var(--blue);
+    background: black;
     text-align: center;
     font-family: var(--inter);
     font-weight: 300;

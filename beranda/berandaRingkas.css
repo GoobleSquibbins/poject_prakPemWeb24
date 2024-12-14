@@ -1,0 +1,300 @@
+:root {
+    --blue: #0C0233;
+    --yellow: #F2C502;
+    --gray: #5D5D5D;
+    --dark-gray: #11101B;
+
+    --alatsi: "Alatsi", sans-serif;
+    ;
+    --inter: "Inter", sans-serif;
+    --alexandria: "Alexandria", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: 1440px;
+    height: 824px;
+    position: relative;
+    background-image: url('../assets/loginImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 85%;
+}
+
+.Title {
+    color: white;
+    font-family: var(--inter);
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Title p,
+.Title h1 {
+    background: rgb(19, 19, 19, 0.3);
+    margin: 5px 0px;
+    width: 550px;
+    padding: 10px 15px;
+}
+
+.Title h1 {
+    font-size: 37px;
+}
+
+.logo{
+    color: white;
+    font-family: var(--inter);
+    margin-bottom: 150px;
+}
+
+.logo h1{
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.cardHolder{
+    width: 1014px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.cards{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 145px;
+    height: 245px;
+    transition: all .2s;
+}
+
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.cards img{
+    margin-top: 60px;
+}
+
+.cards h3{
+    margin: 0;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.cards p{
+    margin: 0;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 14px;
+    color: #5D5D5D;
+    width: 90%;
+    text-align: center;   
+}
+
+
+
+/* =============================FOOOTER================================== */
+
+footer {
+    width: 1440px;
+    height: 759px;
+    background: var(--dark-gray);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconContainer p {
+    margin: 0;
+    padding: 0;
+    font-family: var(--inter);
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footerIcon {
+    width: 95;
+}
+
+.footerLeft {
+    padding: 0;
+    margin-top: 77px;
+    padding-right: 34px;
+    border-right: 1px solid white;
+}
+
+.footerLTxt {
+    margin-top: 290px;
+    padding-bottom: 15px;
+    text-align: right;
+    font-family: var(--inter);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footerTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerRight {
+    margin-left: 130px;
+    font-family: var(--inter);
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.footerRight ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerRight li {
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footerRight h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.layananKami {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 121px;
+}
+
+.footerCol1 {
+    margin-top: 124px;
+    margin-left: 137px;
+    margin-right: 115px;
+}
+
+.footerCol2 {
+    margin-top: 124px;
+}
+
+.hubungiPolri,
+.hotlineDarurat {
+    margin-top: 82px;
+}
+
+.footerDown {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.contact ul {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: var(--inter);
+}
+
+.contact li {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footerSosmed {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rockBottom {
+    margin-top: 17px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.rockBottom a {
+    color: white;
+    font-family: var(--inter);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.lastUpdate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+
+.lastUpdate p {
+    margin-right: 19px;
+}

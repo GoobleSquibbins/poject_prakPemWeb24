@@ -121,7 +121,7 @@ body{
     position: absolute;
     top: 366px;
     left: 34px;
-    background: var(--dark-gray);
+    background: black;
     height: 45px;
 }
 
@@ -181,6 +181,9 @@ body{
     margin: 0;
     font-size: 50px;
 }
+
+
+
 
 .sections{
     display: flex;

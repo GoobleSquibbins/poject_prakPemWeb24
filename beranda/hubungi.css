@@ -98,7 +98,7 @@ body{
     position: absolute;
     top: 313px;
     left: 34px;
-    background: var(--dark-gray);
+    background: black;
     height: 45px;
 }
 
