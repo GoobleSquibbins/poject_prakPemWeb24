@@ -28,14 +28,13 @@
 
 <body>
     <div class="nav">
-        <a href="" class="logo"><img src="../assets/logo.png" alt=""></a>
+        <a href="beranda.php" class="logo"><img src="../assets/logo.png" alt=""></a>
         <div class="links">
             <ol class="list_of_links">
-                <li><a class="link_item" href="">Tentang</a></li>
-                <li><a class="link_item" href="">Informasi</a></li>
-                <li><a class="link_item" href="">Layanan</a></li>
-                <li><a class="link_item" href="">Hubungi</a></li>
-                <li><a href="" class="search_icon"><img src="../assets/OpsiPencarian.png" alt=""></a></li>
+                <li><a class="link_item" href="tentang.php">Tentang</a></li>
+                <li><a class="link_item" href="informasi.php">Informasi</a></li>
+                <li><a class="link_item" href="layanan.php">Layanan</a></li>
+                <li><a class="link_item" href="hubungi.php">Hubungi</a></li>
             </ol>
         </div>
     </div>
@@ -67,10 +66,12 @@
             <h1 class="formTitle">FORMULIR PENGADUAN</h1>
             <form action="" id="form1">
                 <label class="lbl" for="nama">Nama</label>
-                <input class="inp" type="text" name="nama" id="nama" required placeholder="Nama Lengkap" oninput="validateNama(this)">
+                <input class="inp" type="text" name="nama" id="nama" required placeholder="Nama Lengkap"
+                    oninput="validateNama(this)">
 
                 <label class="lbl" for="nik">NIK</label>
-                <input class="inp" type="text" name="nik" id="nik" required placeholder="16 Digit No. Kependudukan" oninput="validateNik(this)">
+                <input class="inp" type="text" name="nik" id="nik" required placeholder="16 Digit No. Kependudukan"
+                    oninput="validateNik(this)">
 
                 <label class="lbl" for="email">E-mail</label>
                 <input class="inp" type="email" name="email" id="email" required
@@ -243,16 +244,16 @@
             </div>
         </div>
     </footer>
-    
+
     <script>
-        function validateNik(input){
+        function validateNik(input) {
             input.value = input.value.replace(/[^0-9]/g, '');
-            if(input.value.length > 16){
+            if (input.value.length > 16) {
                 input.value = input.value.slice(0, 16);
             }
         }
 
-        function validateNama(input){
+        function validateNama(input) {
             input.value = input.value.replace(/[^a-zA-Z]/g, '');
         }
     </script>

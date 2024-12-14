@@ -29,10 +29,10 @@
 <body>
     <div class="main">
         <img class="logo" src="../assets/logo.png" alt="">
-        <p class="numBot">110</p>
         
-
+        
         <div class="leftSec">
+            <p class="numBot">110</p>
             <div class="formContainer">
                 <h1>Daftar</h1>
                 <h3>Selamat Datang di<br>
@@ -60,7 +60,7 @@
                     </div>
                     <button class="btnLogin" form="formLogin">Daftar</button>
                 </form>
-                <p class="regLink">Sudah punya akun? <a href="#">Masuk Akun</a></p>
+                <p class="regLink">Sudah punya akun? <a href="login.php">Masuk Akun</a></p>
             </div>
         </div>
 

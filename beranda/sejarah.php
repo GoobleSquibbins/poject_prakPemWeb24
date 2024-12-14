@@ -28,14 +28,13 @@
 
 <body>
     <div class="nav">
-        <a href="" class="logo"><img src="../assets/logo.png" alt=""></a>
+        <a href="beranda.php" class="logo"><img src="../assets/logo.png" alt=""></a>
         <div class="links">
             <ol class="list_of_links">
-                <li><a class="link_item" href="">Tentang</a></li>
-                <li><a class="link_item" href="">Informasi</a></li>
-                <li><a class="link_item" href="">Layanan</a></li>
-                <li><a class="link_item" href="">Hubungi</a></li>
-                <li><a href="" class="search_icon"><img src="../assets/OpsiPencarian.png" alt=""></a></li>
+                <li><a class="link_item" href="tentang.php">Tentang</a></li>
+                <li><a class="link_item" href="informasi.php">Informasi</a></li>
+                <li><a class="link_item" href="layanan.php">Layanan</a></li>
+                <li><a class="link_item" href="hubungi.php">Hubungi</a></li>
             </ol>
         </div>
     </div>
@@ -277,135 +276,135 @@
                     </p>
 
                     <p>
-                    <b>Masa Orde Baru</b> <br>
-                    Karena pengalaman yang pahit dari peristiwa G30S/PKI yang mencerminkan tidak adanya
-                    integrasi antar unsur-unsur ABRI, maka untuk meningkatkan integrasi ABRI, tahun 1967 dengan
-                    SK Presiden No. 132/1967 tanggal 24 Agustus 1967 ditetapkan Pokok-Pokok Organisasi dan
-                    Prosedur Bidang Pertahanan dan Keamanan yang menyatakan ABRI merupakan bagian dari
-                    organisasi Departemen Hankam meliputi AD, AL, AU , dan AK yang masing-masing dipimpin oleh
-                    Panglima Angkatan dan bertanggung jawab atas pelaksanaan tugas dan kewajibannya kepada
-                    Menhankam/Pangab. 
-                    <br><br>
-                    Jenderal Soeharto sebagai Menhankam/Pangab yang pertama. Setelah Soeharto dipilih sebagai
-                    presiden pada tahun 1968, jabatan Menhankam/Pangab berpindah kepada Jenderal M. Panggabean.
-                    Kemudian ternyata betapa ketatnya integrasi ini yang dampaknya sangat
-                    menyulitkan perkembangan Polri yang secara universal memang bukan angkatan perang.
-                    Pada tahun 1969 dengan Keppres No. 52/1969 sebutan Panglima Angkatan Kepolisian diganti
-                    kembali sesuai UU No. 13/1961 menjadi Kepala Kepolisian Negara RI, namun singkatannya tidak
-                    lagi KKN tetapi Kapolri. Pergantian sebutan ini diresmikan pada tanggal 1 Juli 1969.
+                        <b>Masa Orde Baru</b> <br>
+                        Karena pengalaman yang pahit dari peristiwa G30S/PKI yang mencerminkan tidak adanya
+                        integrasi antar unsur-unsur ABRI, maka untuk meningkatkan integrasi ABRI, tahun 1967 dengan
+                        SK Presiden No. 132/1967 tanggal 24 Agustus 1967 ditetapkan Pokok-Pokok Organisasi dan
+                        Prosedur Bidang Pertahanan dan Keamanan yang menyatakan ABRI merupakan bagian dari
+                        organisasi Departemen Hankam meliputi AD, AL, AU , dan AK yang masing-masing dipimpin oleh
+                        Panglima Angkatan dan bertanggung jawab atas pelaksanaan tugas dan kewajibannya kepada
+                        Menhankam/Pangab.
+                        <br><br>
+                        Jenderal Soeharto sebagai Menhankam/Pangab yang pertama. Setelah Soeharto dipilih sebagai
+                        presiden pada tahun 1968, jabatan Menhankam/Pangab berpindah kepada Jenderal M. Panggabean.
+                        Kemudian ternyata betapa ketatnya integrasi ini yang dampaknya sangat
+                        menyulitkan perkembangan Polri yang secara universal memang bukan angkatan perang.
+                        Pada tahun 1969 dengan Keppres No. 52/1969 sebutan Panglima Angkatan Kepolisian diganti
+                        kembali sesuai UU No. 13/1961 menjadi Kepala Kepolisian Negara RI, namun singkatannya tidak
+                        lagi KKN tetapi Kapolri. Pergantian sebutan ini diresmikan pada tanggal 1 Juli 1969.
                     </p>
                 </div>
 
 
             </div>
 
-       
-    </div>
 
-    <footer>
-        <div class="footerTop">
-            <div class="footerLeft">
-                <div class="iconContainer">
-                    <img class="footerIcon" src="../assets/polIconBig.png" alt="">
-                    <p>
-                        Kepolisian <br> Negara Republik <br> Indonesia
+        </div>
+
+        <footer>
+            <div class="footerTop">
+                <div class="footerLeft">
+                    <div class="iconContainer">
+                        <img class="footerIcon" src="../assets/polIconBig.png" alt="">
+                        <p>
+                            Kepolisian <br> Negara Republik <br> Indonesia
+                        </p>
+                    </div>
+
+                    <p class="footerLTxt">
+                        Jl. I Gusti Ngurah Rai No.12 <br>
+                        Nusantara, Otoritas IKN 17510 <br>
+                        aduan@polri.go.id <br>
                     </p>
                 </div>
 
-                <p class="footerLTxt">
-                    Jl. I Gusti Ngurah Rai No.12 <br>
-                    Nusantara, Otoritas IKN 17510 <br>
-                    aduan@polri.go.id <br>
-                </p>
+                <div class="footerRight">
+                    <div class="layananKami">
+                        <h3>Layanan Kami</h3>
+                        <ul>
+                            <li>SIM</li>
+                            <li>SKCK</li>
+                            <li>BPKB</li>
+                            <li>Pengawalan</li>
+                            <li>Pengaduan dan Laporan</li>
+                            <li>Izin Keramaian</li>
+                            <li>Pengamanan Objek khusus</li>
+                            <li>Portal Kilas</li>
+                        </ul>
+                    </div>
+                    <div class="footerCol1">
+                        <div class="tentangPolri">
+                            <h3>Tentang Polri</h3>
+                            <ul>
+                                <li>Visi dan Misi</li>
+                                <li>Tentang Kapolri</li>
+                                <li>Kilas Balik</li>
+                                <li>Makna dari Logo</li>
+                            </ul>
+                        </div>
+                        <div class="hubungiPolri">
+                            <h3>Hubungi Polri</h3>
+                            <ul>
+                                <li>Hotline 110</li>
+                                <li>Aplikasi Presisi</li>
+                                <li>Kontak Resmi</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerCol2">
+                        <div class="informasiPublik">
+                            <h3>Informasi Publik</h3>
+                            <ul>
+                                <li>Rekayasa Lalu Lintas</li>
+                                <li>Portal Darurat</li>
+                                <li>Informasi Harian</li>
+                                <li>UU dan Peraturan</li>
+                            </ul>
+                        </div>
+                        <div class="hotlineDarurat">
+                            <h3>Hotline Darurat</h3>
+                            <ul>
+                                <li>Ambulan 112</li>
+                                <li>Pemadam Kebakaran 112</li>
+                                <li>SAR 112</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="footerRight">
-                <div class="layananKami">
-                    <h3>Layanan Kami</h3>
+            <div class="footerDown">
+                <div class="contact">
                     <ul>
-                        <li>SIM</li>
-                        <li>SKCK</li>
-                        <li>BPKB</li>
-                        <li>Pengawalan</li>
-                        <li>Pengaduan dan Laporan</li>
-                        <li>Izin Keramaian</li>
-                        <li>Pengamanan Objek khusus</li>
-                        <li>Portal Kilas</li>
+                        <li>Contact Us</li>
+                        <li>Feedback</li>
+                        <li>FAQ</li>
+                        <li>Share Your Views @ Reach</li>
+                        <li>
+                            <div class="footerSosmed">
+                                <img src="../assets/IconFacebook.png" alt="">
+                                <img src="../assets/IconInstagram.png" alt="">
+                                <img src="../assets/IconTwitter.png" alt="">
+                                <img src="../assets/IconYT.png" alt="">
+                                <img src="../assets/IconAt.png" alt="">
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div class="footerCol1">
-                    <div class="tentangPolri">
-                        <h3>Tentang Polri</h3>
-                        <ul>
-                            <li>Visi dan Misi</li>
-                            <li>Tentang Kapolri</li>
-                            <li>Kilas Balik</li>
-                            <li>Makna dari Logo</li>
-                        </ul>
-                    </div>
-                    <div class="hubungiPolri">
-                        <h3>Hubungi Polri</h3>
-                        <ul>
-                            <li>Hotline 110</li>
-                            <li>Aplikasi Presisi</li>
-                            <li>Kontak Resmi</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footerCol2">
-                    <div class="informasiPublik">
-                        <h3>Informasi Publik</h3>
-                        <ul>
-                            <li>Rekayasa Lalu Lintas</li>
-                            <li>Portal Darurat</li>
-                            <li>Informasi Harian</li>
-                            <li>UU dan Peraturan</li>
-                        </ul>
-                    </div>
-                    <div class="hotlineDarurat">
-                        <h3>Hotline Darurat</h3>
-                        <ul>
-                            <li>Ambulan 112</li>
-                            <li>Pemadam Kebakaran 112</li>
-                            <li>SAR 112</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <div class="rockBottom">
+                    <a href="#">Report Vulnerability</a>
+                    <img src="../assets/External link.png" alt=""><span> | </span>
+                    <a href="#">Privacy Statement</a><span> | </span>
+                    <a href="#">Term of Use</a><span> | </span>
+                    <a href="#">Sitemap</a>
 
-        <div class="footerDown">
-            <div class="contact">
-                <ul>
-                    <li>Contact Us</li>
-                    <li>Feedback</li>
-                    <li>FAQ</li>
-                    <li>Share Your Views @ Reach</li>
-                    <li>
-                        <div class="footerSosmed">
-                            <img src="../assets/IconFacebook.png" alt="">
-                            <img src="../assets/IconInstagram.png" alt="">
-                            <img src="../assets/IconTwitter.png" alt="">
-                            <img src="../assets/IconYT.png" alt="">
-                            <img src="../assets/IconAt.png" alt="">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="rockBottom">
-                <a href="#">Report Vulnerability</a>
-                <img src="../assets/External link.png" alt=""><span> | </span>
-                <a href="#">Privacy Statement</a><span> | </span>
-                <a href="#">Term of Use</a><span> | </span>
-                <a href="#">Sitemap</a>
-
-                <div class="lastUpdate">
-                    <p>2024. Government of Indonesia <br> Last Update 10 December 2024</p>
-                    <img src="../assets/image 6.png" alt="">
+                    <div class="lastUpdate">
+                        <p>2024. Government of Indonesia <br> Last Update 10 December 2024</p>
+                        <img src="../assets/image 6.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>

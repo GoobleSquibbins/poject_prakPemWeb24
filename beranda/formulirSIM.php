@@ -28,14 +28,13 @@
 
 <body>
     <div class="nav">
-        <a href="" class="logo"><img src="../assets/logo.png" alt=""></a>
+        <a href="beranda.php" class="logo"><img src="../assets/logo.png" alt=""></a>
         <div class="links">
             <ol class="list_of_links">
-                <li><a class="link_item" href="">Tentang</a></li>
-                <li><a class="link_item" href="">Informasi</a></li>
-                <li><a class="link_item" href="">Layanan</a></li>
-                <li><a class="link_item" href="">Hubungi</a></li>
-                <li><a href="" class="search_icon"><img src="../assets/OpsiPencarian.png" alt=""></a></li>
+                <li><a class="link_item" href="tentang.php">Tentang</a></li>
+                <li><a class="link_item" href="informasi.php">Informasi</a></li>
+                <li><a class="link_item" href="layanan.php">Layanan</a></li>
+                <li><a class="link_item" href="hubungi.php">Hubungi</a></li>
             </ol>
         </div>
     </div>
@@ -65,12 +64,14 @@
                 </h1>
                 <div class="inpGrp">
                     <label class="lbl" for="nama">Nama Pemohon</label>
-                    <input class="inp" type="text" name="nama" id="nama" required placeholder="Nama Lengkap" oninput="validateNama(this)">
+                    <input class="inp" type="text" name="nama" id="nama" required placeholder="Nama Lengkap"
+                        oninput="validateNama(this)">
                 </div>
 
                 <div class="inpGrp">
                     <label class="lbl" for="nik">NIK</label>
-                    <input class="inp" type="text" name="nik" id="nik" oninput="validateNik(this)" required placeholder="16 Digit No. Kependudukan">
+                    <input class="inp" type="text" name="nik" id="nik" oninput="validateNik(this)" required
+                        placeholder="16 Digit No. Kependudukan">
                 </div>
 
                 <div class="inpGrp">
@@ -87,7 +88,8 @@
 
                 <div class="inpGrp">
                     <label class="lbl" for="tlpn">Nomor Telepon</label>
-                    <input class="inp" type="text" name="tlpn" id="tlpn" required placeholder="+62" oninput="validateTlpn(this)">
+                    <input class="inp" type="text" name="tlpn" id="tlpn" required placeholder="+62"
+                        oninput="validateTlpn(this)">
                 </div>
 
                 <div class="inpGrp">
@@ -260,19 +262,19 @@
                 input.value = input.value.slice(0, 5);
             }
         }
-        
-        function validateNik(input){
+
+        function validateNik(input) {
             input.value = input.value.replace(/[^0-9]/g, '');
-            if(input.value.length > 16){
+            if (input.value.length > 16) {
                 input.value = input.value.slice(0, 16);
             }
         }
 
-        function validateTlpn(input){
+        function validateTlpn(input) {
             input.value = input.value.replace(/[^0-9]/g, '');
         }
 
-        function validateNama(input){
+        function validateNama(input) {
             input.value = input.value.replace(/[^a-zA-Z]/g, '');
         }
     </script>

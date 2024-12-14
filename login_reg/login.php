@@ -48,7 +48,7 @@
                     </div>
                     <button class="btnLogin" form="formLogin">Masuk</button>
                 </form>
-                <p class="regLink">Belum punya akun? <a href="#">Daftar sekarang</a></p>
+                <p class="regLink">Belum punya akun? <a href="register.php">Daftar sekarang</a></p>
             </div>
         </div>
 

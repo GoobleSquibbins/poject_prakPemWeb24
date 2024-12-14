@@ -28,14 +28,13 @@
 <body>
     <div class="main">
         <div class="nav">
-            <a href="" class="logo"><img src="../assets/logo.png" alt=""></a>
+            <a href="beranda.php" class="logo"><img src="../assets/logo.png" alt=""></a>
             <div class="links">
                 <ol class="list_of_links">
-                    <li><a class="link_item" href="">Tentang</a></li>
-                    <li><a class="link_item" href="">Informasi</a></li>
-                    <li><a class="link_item" href="">Layanan</a></li>
-                    <li><a class="link_item" href="">Hubungi</a></li>
-                    <li><a href="" class="search_icon"><img src="../assets/OpsiPencarian.png" alt=""></a></li>
+                    <li><a class="link_item" href="tentang.php">Tentang</a></li>
+                    <li><a class="link_item" href="informasi.php">Informasi</a></li>
+                    <li><a class="link_item" href="layanan.php">Layanan</a></li>
+                    <li><a class="link_item" href="hubungi.php">Hubungi</a></li>
                 </ol>
             </div>
         </div>
