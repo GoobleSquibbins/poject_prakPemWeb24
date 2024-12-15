@@ -29,26 +29,26 @@
 <body>
     <div class="main">
         <img class="logo" src="../assets/logo.png" alt="">
-        
-        
+
+
         <div class="leftSec">
             <p class="numBot">110</p>
             <div class="formContainer">
                 <h1>Daftar</h1>
                 <h3>Selamat Datang di<br>
                     Layanan Permohonan Berkas Daring</h3>
-                <form action="" method="post" id="formLogin">
+                <form action="process_register.php" method="post" id="formLogin">
                     <div class="inpGrp">
                         <label for="nik">Nomor Induk Kependudukan</label>
-                        <input type="text" name="nik" id="nik" required placeholder="16 Digit NIK">
+                        <input type="text" name="nik" id="nik" required placeholder="16 Digit NIK" oninput="validateNik(this)">
                     </div>
                     <div class="inpGrp">
                         <label for="nama">Nama Lengkap</label>
-                        <input type="text" name="nama" id="nama" required placeholder="Masukan Nama Anda">
+                        <input type="text" name="nama" id="nama" required placeholder="Masukan Nama Anda" oninput="validateNama(this)">
                     </div>
                     <div class="inpGrp">
-                        <label for="tanggal">Tanggal Lahir</label>
-                        <input type="date" name="tanggal" id="tanggal" required placeholder="16 Digit NIK">
+                        <label for="tanggal_lahir">Tanggal Lahir</label>
+                        <input type="date" name="tanggal_lahir" id="tanggal_lahir" required>
                     </div>
                     <div class="inpGrp">
                         <label for="email">Alamat Surel</label>
@@ -78,6 +78,30 @@
         </div>
 
     </div>
+
+    <script>
+        function validatePos(input) {
+            input.value = input.value.replace(/[^0-9]/g, '');
+            if (input.value.length > 5) {
+                input.value = input.value.slice(0, 5);
+            }
+        }
+
+        function validateNik(input) {
+            input.value = input.value.replace(/[^0-9]/g, '');
+            if (input.value.length > 16) {
+                input.value = input.value.slice(0, 16);
+            }
+        }
+
+        function validateTlpn(input) {
+            input.value = input.value.replace(/[^0-9]/g, '');
+        }
+
+        function validateNama(input) {
+            input.value = input.value.replace(/[^a-zA-Z\s]/g, '');
+        }
+    </script>
 </body>
 
 </html>

@@ -30,7 +30,7 @@
     <div class="main">
         <img class="logo" src="../assets/logo.png" alt="">
         <p class="numBot">110</p>
-        
+
 
         <div class="leftSec">
             <div class="formContainer">
@@ -66,6 +66,42 @@
         </div>
 
     </div>
+
+    <?php
+    session_start();
+    include '../connect.php';
+
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+        $stmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        if ($result->num_rows === 1) {
+            $user = $result->fetch_assoc();
+
+            // Verifikasi password
+            if (password_verify($password, $user['password'])) {
+                $_SESSION['email'] = $user['email'];
+                $_SESSION['role'] = $user['role'];
+
+                // Redirect langsung ke dashboard
+                header('Location: ../simMaking/berandaSim.php');
+                exit();
+            } else {
+                echo '<script>alert("Kata sandi salah!"); window.location="index.php";</script>';
+            }
+        } else {
+            echo '<script>alert("Email tidak ditemukan!"); window.location="index.php";</script>';
+        }
+    }
+    ?>
+
+    
+
 </body>
 
 </html>
