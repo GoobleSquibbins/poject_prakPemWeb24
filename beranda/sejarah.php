@@ -302,109 +302,112 @@
         </div>
 
         <footer>
-            <div class="footerTop">
-                <div class="footerLeft">
-                    <div class="iconContainer">
-                        <img class="footerIcon" src="../assets/polIconBig.png" alt="">
-                        <p>
-                            Kepolisian <br> Negara Republik <br> Indonesia
-                        </p>
-                    </div>
-
-                    <p class="footerLTxt">
-                        Jl. I Gusti Ngurah Rai No.12 <br>
-                        Nusantara, Otoritas IKN 17510 <br>
-                        aduan@polri.go.id <br>
+        <div class="footerTop">
+            <div class="footerLeft">
+                <div class="iconContainer">
+                    <img class="footerIcon" src="../assets/polIconBig.png" alt="">
+                    <p>
+                        Kepolisian <br> Negara Republik <br> Indonesia
                     </p>
                 </div>
 
-                <div class="footerRight">
-                    <div class="layananKami">
-                        <h3>Layanan Kami</h3>
-                        <ul>
-                            <li>SIM</li>
-                            <li>SKCK</li>
-                            <li>BPKB</li>
-                            <li>Pengawalan</li>
-                            <li>Pengaduan dan Laporan</li>
-                            <li>Izin Keramaian</li>
-                            <li>Pengamanan Objek khusus</li>
-                            <li>Portal Kilas</li>
-                        </ul>
-                    </div>
-                    <div class="footerCol1">
-                        <div class="tentangPolri">
-                            <h3>Tentang Polri</h3>
-                            <ul>
-                                <li>Visi dan Misi</li>
-                                <li>Tentang Kapolri</li>
-                                <li>Kilas Balik</li>
-                                <li>Makna dari Logo</li>
-                            </ul>
-                        </div>
-                        <div class="hubungiPolri">
-                            <h3>Hubungi Polri</h3>
-                            <ul>
-                                <li>Hotline 110</li>
-                                <li>Aplikasi Presisi</li>
-                                <li>Kontak Resmi</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footerCol2">
-                        <div class="informasiPublik">
-                            <h3>Informasi Publik</h3>
-                            <ul>
-                                <li>Rekayasa Lalu Lintas</li>
-                                <li>Portal Darurat</li>
-                                <li>Informasi Harian</li>
-                                <li>UU dan Peraturan</li>
-                            </ul>
-                        </div>
-                        <div class="hotlineDarurat">
-                            <h3>Hotline Darurat</h3>
-                            <ul>
-                                <li>Ambulan 112</li>
-                                <li>Pemadam Kebakaran 112</li>
-                                <li>SAR 112</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <p class="footerLTxt">
+                    Jl. I Gusti Ngurah Rai No.12 <br>
+                    Nusantara, Otoritas IKN 17510 <br>
+                    aduan@polri.go.id <br>
+                </p>
             </div>
 
-            <div class="footerDown">
-                <div class="contact">
+            <div class="footerRight">
+                <div class="layananKami">
+                    <h3>Layanan Kami</h3>
                     <ul>
-                        <li>Contact Us</li>
-                        <li>Feedback</li>
-                        <li>FAQ</li>
-                        <li>Share Your Views @ Reach</li>
-                        <li>
-                            <div class="footerSosmed">
-                                <img src="../assets/IconFacebook.png" alt="">
-                                <img src="../assets/IconInstagram.png" alt="">
-                                <img src="../assets/IconTwitter.png" alt="">
-                                <img src="../assets/IconYT.png" alt="">
-                                <img src="../assets/IconAt.png" alt="">
-                            </div>
-                        </li>
+                        <ul>
+                            <li><a href="permohonanSIM.php" class="footerLinks">SIM</a></li>
+                            <li><a href="permohonanSKCK.php" class="footerLinks">SKCK</a></li>
+                            <li><a href="bpkb_skck.php#bpkb" class="footerLinks">BPKB</a></li>
+                            <li><a href="bpkb_skck.php#kawal" class="footerLinks">Pengawalan</a></li>
+                            <li><a href="pengaduan.php" class="footerLinks">Pengaduan dan Laporan</a></li>
+                            <li><a href="#" class="footerLinks">Izin Keramaian</a></li>
+                            <li><a href="#" class="footerLinks">Pengamanan Objek khusus</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Portal Kilas</a></li>
+                        </ul>
+
                     </ul>
                 </div>
-                <div class="rockBottom">
-                    <a href="#">Report Vulnerability</a>
-                    <img src="../assets/External link.png" alt=""><span> | </span>
-                    <a href="#">Privacy Statement</a><span> | </span>
-                    <a href="#">Term of Use</a><span> | </span>
-                    <a href="#">Sitemap</a>
-
-                    <div class="lastUpdate">
-                        <p>2024. Government of Indonesia <br> Last Update 10 December 2024</p>
-                        <img src="../assets/image 6.png" alt="">
+                <div class="footerCol1">
+                    <div class="tentangPolri">
+                        <h3>Tentang Polri</h3>
+                        <ul>
+                            <li><a href="tentang.php" class="footerLinks">Visi dan Misi</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Tentang Kapolri</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Kilas Balik</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Makna dari Logo</a></li>
+                        </ul>
+                    </div>
+                    <div class="hubungiPolri">
+                        <h3>Hubungi Polri</h3>
+                        <ul>
+                            <li><a href="hubungi.php" class="footerLinks">Hotline 110</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Aplikasi Presisi</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Kontak Resmi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerCol2">
+                    <div class="informasiPublik">
+                        <h3>Informasi Publik</h3>
+                        <ul>
+                            <li><a href="informasi.php" class="footerLinks">Rekayasa Lalu Lintas</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Portal Darurat</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Informasi Harian</a></li>
+                            <li><a href="informasi.php" class="footerLinks">UU dan Peraturan</a></li>
+                        </ul>
+                    </div>
+                    <div class="hotlineDarurat">
+                        <h3>Hotline Darurat</h3>
+                        <ul>
+                            <li><a href="hubungi.php" class="footerLinks">Ambulan 112</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Pemadam Kebakaran 112</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">SAR 112</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+
+        <div class="footerDown">
+            <div class="contact">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Feedback</li>
+                    <li>FAQ</li>
+                    <li>Share Your Views @ Reach</li>
+                    <li>
+                        <div class="footerSosmed">
+                            <img src="../assets/IconFacebook.png" alt="">
+                            <img src="../assets/IconInstagram.png" alt="">
+                            <img src="../assets/IconTwitter.png" alt="">
+                            <img src="../assets/IconYT.png" alt="">
+                            <img src="../assets/IconAt.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="rockBottom">
+                <a href="#">Report Vulnerability</a>
+                <img src="../assets/External link.png" alt=""><span> | </span>
+                <a href="#">Privacy Statement</a><span> | </span>
+                <a href="#">Term of Use</a><span> | </span>
+                <a href="#">Sitemap</a>
+
+                <div class="lastUpdate">
+                    <p>2024. Government of Indonesia <br> Last Update 10 December 2024</p>
+                    <img src="../assets/image 6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

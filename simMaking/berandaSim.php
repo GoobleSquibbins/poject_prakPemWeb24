@@ -212,32 +212,35 @@
                 <div class="layananKami">
                     <h3>Layanan Kami</h3>
                     <ul>
-                        <li>SIM</li>
-                        <li>SKCK</li>
-                        <li>BPKB</li>
-                        <li>Pengawalan</li>
-                        <li>Pengaduan dan Laporan</li>
-                        <li>Izin Keramaian</li>
-                        <li>Pengamanan Objek khusus</li>
-                        <li>Portal Kilas</li>
+                        <ul>
+                            <li><a href="permohonanSIM.php" class="footerLinks">SIM</a></li>
+                            <li><a href="permohonanSKCK.php" class="footerLinks">SKCK</a></li>
+                            <li><a href="bpkb_skck.php#bpkb" class="footerLinks">BPKB</a></li>
+                            <li><a href="bpkb_skck.php#kawal" class="footerLinks">Pengawalan</a></li>
+                            <li><a href="pengaduan.php" class="footerLinks">Pengaduan dan Laporan</a></li>
+                            <li><a href="#" class="footerLinks">Izin Keramaian</a></li>
+                            <li><a href="#" class="footerLinks">Pengamanan Objek khusus</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Portal Kilas</a></li>
+                        </ul>
+
                     </ul>
                 </div>
                 <div class="footerCol1">
                     <div class="tentangPolri">
                         <h3>Tentang Polri</h3>
                         <ul>
-                            <li>Visi dan Misi</li>
-                            <li>Tentang Kapolri</li>
-                            <li>Kilas Balik</li>
-                            <li>Makna dari Logo</li>
+                            <li><a href="tentang.php" class="footerLinks">Visi dan Misi</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Tentang Kapolri</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Kilas Balik</a></li>
+                            <li><a href="tentang.php" class="footerLinks">Makna dari Logo</a></li>
                         </ul>
                     </div>
                     <div class="hubungiPolri">
                         <h3>Hubungi Polri</h3>
                         <ul>
-                            <li>Hotline 110</li>
-                            <li>Aplikasi Presisi</li>
-                            <li>Kontak Resmi</li>
+                            <li><a href="hubungi.php" class="footerLinks">Hotline 110</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Aplikasi Presisi</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Kontak Resmi</a></li>
                         </ul>
                     </div>
                 </div>
@@ -245,18 +248,18 @@
                     <div class="informasiPublik">
                         <h3>Informasi Publik</h3>
                         <ul>
-                            <li>Rekayasa Lalu Lintas</li>
-                            <li>Portal Darurat</li>
-                            <li>Informasi Harian</li>
-                            <li>UU dan Peraturan</li>
+                            <li><a href="informasi.php" class="footerLinks">Rekayasa Lalu Lintas</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Portal Darurat</a></li>
+                            <li><a href="informasi.php" class="footerLinks">Informasi Harian</a></li>
+                            <li><a href="informasi.php" class="footerLinks">UU dan Peraturan</a></li>
                         </ul>
                     </div>
                     <div class="hotlineDarurat">
                         <h3>Hotline Darurat</h3>
                         <ul>
-                            <li>Ambulan 112</li>
-                            <li>Pemadam Kebakaran 112</li>
-                            <li>SAR 112</li>
+                            <li><a href="hubungi.php" class="footerLinks">Ambulan 112</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">Pemadam Kebakaran 112</a></li>
+                            <li><a href="hubungi.php" class="footerLinks">SAR 112</a></li>
                         </ul>
                     </div>
                 </div>

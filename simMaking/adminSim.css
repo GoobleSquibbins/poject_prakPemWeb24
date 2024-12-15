@@ -527,7 +527,10 @@ body {
 
 
 
-
+.footerLinks{
+    text-decoration: none;
+    color: white;
+}
 
 
 

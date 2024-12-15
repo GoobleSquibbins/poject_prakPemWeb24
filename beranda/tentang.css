@@ -501,3 +501,8 @@ footer{
 .lastUpdate p{
     margin-right: 19px;
 }
+
+.footerLinks{
+    text-decoration: none;
+    color: white;
+}
