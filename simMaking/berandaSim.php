@@ -107,7 +107,7 @@
                     <p>Pastikan Permohonan SIM Sesuai</p>
                 </div>
                 <div class="cardHolderR">
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimMobil.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM A</h3>
@@ -118,7 +118,7 @@
                         </div>
                     </div>
 
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimVan.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM B1</h3>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
 
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimTruk.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM B2</h3>
@@ -143,7 +143,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimMotor.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM C1</h3>
@@ -153,7 +153,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimMotor.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM C2</h3>
@@ -164,7 +164,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimMotor.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM C3</h3>
@@ -174,7 +174,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="cards">
+                    <div onclick="window.location.href = '../beranda/formulirSIM.php'" class="cards">
                         <img src="../assets/iconSimD.jpg" alt="">
                         <div class="cardTxt">
                             <h3>SIM D</h3>

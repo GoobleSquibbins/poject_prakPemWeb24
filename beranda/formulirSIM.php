@@ -57,7 +57,7 @@
     </div>
 
     <div class="main">
-        <form action="" id="form1">
+        <form action="../process_request.php" method="post" id="form1">
             <div class="secL">
                 <h1 class="secLTitle">
                     Permohonan SIM Daring
@@ -77,7 +77,7 @@
                 <div class="inpGrp">
                     <label class="lbl" for="">Unggah Bukti Foto/Video</label>
                     <label class="fileUp" for="file"><img src="../assets/File plus.png" alt=""></label>
-                    <input class="inp" type="file" name="file" id="" required>
+                    <input class="inp" type="file" name="foto_ktp" id="foto_ktp" required>
                 </div>
 
                 <div class="inpGrp">
@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="inpGrp">
-                    <label class="lbl" for="kec">E-mail</label>
+                    <label class="lbl" for="kec">Kecamatan</label>
                     <input class="inp" type="text" name="kec" id="kec" required placeholder="Kecamatan sesuai domisili">
                 </div>
 
@@ -142,7 +142,7 @@
                 <div class="inpGrp">
                     <label class="lbl" for="ttd">Unggah Tanda Tangan Elektronik</label>
                     <label class="fileUp" for="file"><img src="../assets/File plus.png" alt=""></label>
-                    <input class="inp" type="file" name="ttd" id="" required>
+                    <input class="inp" type="file" name="tanda_tangan" id="" required>
                 </div>
 
                 <button class="submit" form="form1">Unggah Permohonan</button>
